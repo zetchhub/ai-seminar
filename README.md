@@ -25,3 +25,8 @@ source activate ai-seminar
 # 無効にする
 source deactivate
 ```
+
+## Jupyter notebookの起動
+```
+jupyter notebook-notebook --dir=notebooks
+```
