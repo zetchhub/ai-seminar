@@ -18,6 +18,8 @@ conda create -n ai-seminar
 
 環境を有効/無効にするためには下記のコマンドを実行します。
 
+Mac/Linuxの場合
+
 ```
 # 環境名を指定して有効にする
 source activate ai-seminar
@@ -26,7 +28,14 @@ source activate ai-seminar
 source deactivate
 ```
 
+Windowsの場合
+
+```
+activate ai-seminar
+deactivate
+```
+
 ## Jupyter notebookの起動
 ```
-jupyter notebook-notebook --dir=notebooks
+jupyter notebook --notebook-dir=notebooks
 ```
